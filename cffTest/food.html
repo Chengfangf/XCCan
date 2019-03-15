@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>小程の食堂</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="food.css">
+    </head>
+    <body>
+        <header id="top_header">
+            <span class="headerText">小程の食堂</span>
+            <div id="headerTime"></div>
+        </header>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="main">
+            <div id="intro">
+                <img id="salad" src="image/salad.jpg" onclick="detail()" class="food">
+                <div id="infor">
+                    <h1 class="food_name">蔬菜沙拉</h1>
+                    <p class="food_intro">jdkaljdejdjskllkdjsk</p>
+                </div>
+            </div>
+            <div id="intro">
+                <img id="fish" src="image/fish.jpg" onclick="detail" class="food">
+                <h1 class="food_name">香煎鱼块</h1>
+            </div>
+            <div id="intro">
+                <img id="fish" src="image/rice.jpg" onclick="detail" class="food">
+                <h1 class="food_name">排骨焖饭</h1>
+            </div>
+            
+        </div>
+
+    </body>
+    <script src="food.js"></script>
+</html>

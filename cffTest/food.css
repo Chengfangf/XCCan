@@ -1,0 +1,43 @@
+@charset "UTF-8";
+#top_header{
+    height: 500px;
+    padding: 20px 10%;
+    margin: 10px 10%;
+    background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552646112084&di=8af595d3c56d2a0c2871991667999179&imgtype=0&src=http%3A%2F%2Fimage.027website.com%2Fuploads%2F20180731%2F13%2F1533013647-vRkMPjmLSl.jpg");
+}
+.background{
+    width: 100%;
+}
+.headerText{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#headerTime{
+    color: gray;
+    font-size: 18px;
+}
+
+#main{
+    padding: 20px 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top:20px; 
+}
+.food_name{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+.food{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
