@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>XCCuisine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="food.css">
+</head>
+
+<body>
+    <header id="top_header">
+        <span class="headerText">小程の料理</span>
+        <span class="headerInfor">分享料理，分享美好~</span>
+        <div id="headerTime" class="headerInfor"></div>
+    </header>
+
+    <!-- 左侧导航栏 -->
+    <nav>
+        <ul class="ul">
+            <li class="li">
+                <img src="image/icon/sushi.png" class="ulIcon">
+                <span class="ulText">水果</span>
+            </li>
+            <li class="li">
+                <img src="image/icon/chicken.png" class="ulIcon">
+                <span class="ulText">蔬菜</span>
+            </li>
+            <li class="li">
+                <img src="image/icon/meat.png" class="ulIcon">
+                <span class="ulText">肉</span>
+            </li>
+            <li class="li">
+                <img src="image/icon/shrimp.png" class="ulIcon">
+                <span class="ulText">海鲜</span>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- 主体部分 -->
+    <div id="main">
+        <div class="saladInfor">
+            <div class="intro">
+                <img id="saladImage" class="introImage" src="image/salad.jpg">
+                <div class="introText">
+                    <h1 class="foodName" id="saladName">蔬菜沙拉</h1>
+                    <div class="detail" id="saladDetail">
+                        <p class="foodIntro">
+                            &emsp;蔬菜沙拉是一道 以圆白菜、番茄、黄瓜等作为主要食材制作而成的美食。蔬菜沙拉是一种非常营养健康的饮食方法。
+                        </p>
+                        <div class="clickBox">
+                            <img src="image/icon/like.png" onclick="collect()" class="collectIcon">
+                            <button id="salad_detaileButton">了解制作详情</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="salad_todoDetail" class="todoDetail">
+                <div class="foodPre">
+                    <span>食材准备：</span>
+                    <ul>
+                        <li>西蓝花</li>
+                        <li>千禧果</li>
+                        <li>鸡蛋</li>
+                        <li>黑胡椒</li>
+                    </ul>
+                </div>
+                <div class="foodMake">
+                    <span>制作步骤：</span>
+                    <ul>
+                        <li>1.将西蓝花切成小块，千禧果从中间切成两半</li>
+                        <li>2.西蓝花过热水焯熟</li>
+                        <li>3.鸡蛋煮3分钟，取出在冷水中冷却</li>
+                        <li>4.鸡蛋从中间切成两半</li>
+                        <li>5.将食材悉数放入碗中,撒入黑胡椒粉。蔬菜沙拉就制作完成了❤</li>
+                    </ul>
+                </div>
+                <button id="salad_closeDetail" class="closeDetail">收起</button>
+            </div>
+        </div>
+        <div class="fishInfor">
+            <div class="intro">
+                <img id="fishImage" class="introImage" src="image/fish.jpg">
+                <div class="introText">
+                    <h1 class="foodName" id="fishName">香煎鱼块</h1>
+                    <div class="detail" id="fishDetail">
+                        <p class="foodIntro">
+                            &emsp;蔬菜沙拉是一道 以圆白菜、番茄、黄瓜等作为主要食材制作而成的美食。蔬菜沙拉是一种非常营养健康的饮食方法。
+                        </p>
+                        <div class="clickBox">
+                            <img src="image/icon/like.png" onclick="collect()" class="collectIcon">
+                            <button id="fish_detaileButton">了解制作详情</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fish_todoDetail" class="todoDetail">
+                <div class="foodPre">
+                    <span>食材准备：</span>
+                    <ul>
+                        <li>西蓝花</li>
+                        <li>千禧果</li>
+                        <li>鸡蛋</li>
+                        <li>黑胡椒</li>
+                    </ul>
+                </div>
+                <div class="foodMake">
+                    <span>制作步骤：</span>
+                    <ul>
+                        <li>1.将西蓝花切成小块，千禧果从中间切成两半</li>
+                        <li>2.西蓝花过热水焯熟</li>
+                        <li>3.鸡蛋煮3分钟，取出在冷水中冷却</li>
+                        <li>4.鸡蛋从中间切成两半</li>
+                        <li>5.将食材悉数放入碗中,撒入黑胡椒粉。蔬菜沙拉就制作完成了❤</li>
+                    </ul>
+                </div>
+                <button id="fish_closeDetail" class="closeDetail">收起</button>
+            </div>
+        </div>
+        <div class="risottoInfor">
+            <div class="intro">
+                <img id="risottoImage" class="introImage" src="image/risotto.jpg">
+                <div class="introText">
+                    <h1 class="foodName" id="risottoName">排骨焖饭</h1>
+                    <div class="detail" id="risottoDetail">
+                        <p class="foodIntro">
+                            &emsp;蔬菜沙拉是一道 以圆白菜、番茄、黄瓜等作为主要食材制作而成的美食。蔬菜沙拉是一种非常营养健康的饮食方法。
+                        </p>
+                        <div class="clickBox">
+                            <img src="image/icon/like.png" onclick="collect()" class="collectIcon">
+                            <button id="risotto_detaileButton">了解制作详情</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="risotto_todoDetail" class="todoDetail">
+                <div class="foodPre">
+                    <span>食材准备：</span>
+                    <ul>
+                        <li>西蓝花</li>
+                        <li>千禧果</li>
+                        <li>鸡蛋</li>
+                        <li>黑胡椒</li>
+                    </ul>
+                </div>
+                <div class="foodMake">
+                    <span>制作步骤：</span>
+                    <ul>
+                        <li>1.将西蓝花切成小块，千禧果从中间切成两半</li>
+                        <li>2.西蓝花过热水焯熟</li>
+                        <li>3.鸡蛋煮3分钟，取出在冷水中冷却</li>
+                        <li>4.鸡蛋从中间切成两半</li>
+                        <li>5.将食材悉数放入碗中,撒入黑胡椒粉。蔬菜沙拉就制作完成了❤</li>
+                    </ul>
+                </div>
+                <button id="risotto_closeDetail" class="closeDetail">收起</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="jquery-3.2.1.js"></script>
+<script src="food.js"></script>
+
+</html>

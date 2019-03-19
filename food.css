@@ -1,0 +1,121 @@
+@charset "UTF-8";
+#top_header{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20px;
+    margin: 10px 10%;
+    justify-content: center;
+    background: url("image/head.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.headerText{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.headerInfor{
+    color: rgb(58, 58, 58);
+    font-size: 18px;
+    padding: 10px;
+}
+
+.ul{
+    list-style: none;
+    margin: 10px 10%;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+}
+.li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ulIcon{
+    width: 150px;
+}
+.ulText{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#main{
+    padding: 20px 10%;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top:20px; 
+}
+
+.introImage{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.introText{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.foodName{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.detail{
+    width: 80%;
+    height:60%;
+}
+
+.foodIntro{
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    height: 70%;
+}
+
+.clickBox{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.collectIcon{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.todoDetail{
+    display: none;
+    font-size: 25px;
+    margin-left: 40px;
+    width: 70%;
+    flex-direction: column;
+    align-content: center;
+    background: url("image/page.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.foodPre{
+    margin-top: 30px;
+    padding: 20px;
+}
+.foodMake{
+    padding: 20px;
+}
+.closeDetail{
+    background: rgb(0, 95, 0);
+    color: white;
+}
